@@ -194,8 +194,8 @@ class App(tk.Tk, Getpart):
                               background='black', foreground='#006400', borderwidth=0)
 
         self.title('Machine Vision Inspection 1.0.0')
-        self.geometry("1920x1020+0+0")
-        #self.state('zoomed')
+        #self.geometry("1920x1020+0+0")
+        self.state('zoomed')
         self.attributes('-fullscreen', True)
 
         self.notebook = ttk.Notebook(self)
